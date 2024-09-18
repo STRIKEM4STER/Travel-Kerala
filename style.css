@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Merriweather", serif;
+}
+
+
+/* nav bar style */
+#logo{
+    width: 230px;
+    height: 230px;
+}
+
+#site-name{
+    font-size: 30px;
+}
+
+#site-name span{
+    background: linear-gradient(90deg, #006400, #39FF14);
+    /* added linear gradient */
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+#navbarNav a{
+    color: #39FF14;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#navbarNav a:hover {
+    color: white; 
+    transform: scale(1.1); 
+}
+
+.navbar {
+    background-image: url(./images/img3\,bs\ prjct.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-toggler{
+    background-color: #39FF14 !important;
+}
+
+/* bg img in main */
+#main{
+    background-image: url(./images/img2\,bs\ prjct.webp);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+#bgg{
+    background-color: rgba(0, 0, 0, 0.338);
+    width: 100%;
+    /* height: 100vh; */
+}
+
+/* wel-cont */
+#wel-cont{
+    margin-top: 8%;
+
+}
+
+#wel-cont h1{
+    background: linear-gradient(90deg, #006400, #39FF14);
+    /* added linear gradient */
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-align: center;
+}
+
+#wel-cont h4{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* destination */
+#destinations{
+    margin-top: 8%;
+    padding-top: 6%;
+}
+
+#destinations h1{
+    background: linear-gradient(90deg, #006400, #39FF14);
+    /* added linear gradient */
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+.card-title {
+    color: #39FF14; 
+}
+
+
+.Button {
+    background-color: #37ff1444; 
+    color: #39FF14; 
+    transition: all 0.3s ease;
+}
+
+
+.Button:hover {
+    background-color: #39FF14;
+    color: black;
+}
+
+
+/* packages */
+
+#packages{
+    background-image: url(./images/pk\ bag.png);
+    width: 100%;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.package-large, .package-small {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.package-large img, .package-small img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+}
+
+
+.package-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    text-align: center;
+}
+
+.package-large:hover .package-overlay, .package-small:hover .package-overlay {
+    opacity: 1; 
+}
+
+.package-overlay h3, .package-overlay h4 {
+    color: #39FF14; 
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.package-overlay h4 {
+    font-size: 1.5rem;
+}
+
+.package-overlay button {
+    background: linear-gradient(90deg, #006400, #39FF14);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.package-overlay button:hover {
+    background-color: #39FF14; 
+    color: black;
+}
+
+#packages h2{
+    padding-top: 20px;
+    color: #39FF14;
+}
+
+/* about */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: black; 
+}
+
+#about h1 {
+    background: linear-gradient(90deg, #006400, #39FF14);
+    /* added linear gradient */
+    -webkit-background-clip: text; 
+    color: transparent;
+    
+}
+
+#about p {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: justify; 
+    color:#39FF14; ; 
+}
+
+/* footer */
+#contact {
+    background-image: linear-gradient(to bottom, #006400, #39FF14); 
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#contact h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: black; 
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color:#39FF14; 
+}
